@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int name,aug,school;
+    printf("Param Davariya\n");
+    printf("16\n");
+    printf("Tapi diploma enegineering \n");
+    return 0;
+}
