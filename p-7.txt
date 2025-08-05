@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int b,h,ans;
+    b=50;
+    h=25;
+    ans=0.5*b*h;
+    printf("area of triangle=%d",ans);
+
+    return 0;
+}
