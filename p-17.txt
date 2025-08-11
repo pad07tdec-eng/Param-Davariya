@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int math, eng, sci;
+    float avg;
+    
+    printf("Enter your Maths Mark: ");
+    scanf("%d", &math);
+    printf("Enter your English Mark: ");
+    scanf("%d", &eng);
+    printf("Enter your Science Mark: ");
+    scanf("%d", &sci);
+    
+    avg = (math+eng+sci)/3;
+    
+    printf("The average is: %.2f ", avg);
+
+    return 0;
+}
